@@ -11,7 +11,7 @@ function NotificationTopReset() {
         N[i].style.top = 16 + (i * 117)+'px';
     }
 }
-
+//
 var Notification = function (options) {
 
     var id = new Date().getTime()+''+Math.floor(Math.random()*10)+''+Math.floor(Math.random()*10)+''+Math.floor(Math.random()*10);
